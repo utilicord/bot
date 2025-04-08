@@ -1,3 +1,6 @@
+# Ignore credentials
+data/
+
 # And all logs
 *.log
 logs/
