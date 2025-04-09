@@ -7,6 +7,7 @@
 
         public static async Task MainAsync(string[] _)
         {
+            Logging.Configure();
             Core.Start();
 
             await Task.Delay(-1);
